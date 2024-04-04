@@ -1,0 +1,34 @@
+p {
+    font-size: large;
+}
+
+section {
+    padding: 60px 0;
+}
+.custom-img {
+    border-radius: 10px;
+    width: 100%;
+}
+.list-group-item::before {
+    content: "\2713"; /* Зеленая галочка */
+    color: #28a745;
+    font-size: 1.2em;
+    margin-right: 10px;
+    float: left;
+}
+
+.bg-custom {
+    background-color: #486586 !important;
+}
+
+.custom-li {
+    border: none;
+    color: #ffffff;
+}
+
+.text-custom {
+    color: #ffffff;
+}
+
+
+
